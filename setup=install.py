@@ -18,3 +18,7 @@
     "filelock==3.7.1",  # For reading and writing config multiprocess and multithread safely  (non-reentrant locks)
     "keyring==23.6.0",  # Store keys in MacOS Keychain, Windows Credential Locker
     "keyrings.cryptfile==1.3.4",  # Secure storage for keys on Linux (Will be replaced)
+"clvm-tools-rs==0.1.9",  # Rust implementation of clvm_tools
+    "aiohttp==3.8.1",  # HTTP server for full node rpc
+    "aiosqlite==0.17.0",  # asyncio wrapper for sqlite, to store blocks
+    "bitstring==3.1.9",  # Binary data management library
